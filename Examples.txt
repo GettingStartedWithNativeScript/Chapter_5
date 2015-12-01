@@ -1,0 +1,2 @@
+Chapter 5 -
+crossCommunicator - the next version with the awesome plugins!

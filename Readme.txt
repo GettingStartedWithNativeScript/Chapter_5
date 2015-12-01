@@ -1,0 +1,15 @@
+To run this example on your Emulator or Device; change into the Example Directory and run:
+
+1.  npm install tns-core-modules
+
+2a. nativescript platform add ios
+	   - or -
+2b. nativescript platform add android
+
+3.  nativescript plugin add nativescript-websockets
+4.  nativescript plugin add nativescript-vibrate
+5.  nativescript plugin add telerik-ui
+
+6a. nativescript run ios --emulator
+	   - or -
+6b. nativescript run android --emulator

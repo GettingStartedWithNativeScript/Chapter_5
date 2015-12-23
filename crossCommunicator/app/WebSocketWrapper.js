@@ -2,7 +2,7 @@
  * (c) 2015, Nathanael Anderson
  * Licensed under the MIT license
  *
- * Version 0.0.1                                       Nathan@master-technology.com
+ * Version 0.0.2                                       Nathan@master-technology.com
  **********************************************************************************/
 "use strict";
 /* global require, exports, module */
@@ -94,7 +94,7 @@ WebSocketWrapper.prototype._openSocket = function() {
     // This function does back-off re-connection
     var retryConnection = function() {
 
-        // If we already have one scheduled; then we don’t need
+        // If we already have one scheduled; then we don't need
         // to do anything more.
         if (self._timeoutId) { return; }
 
@@ -139,7 +139,7 @@ WebSocketWrapper.prototype._openSocket = function() {
         }
     });
 
-    // If the socket is closed, and it isn’t a normal close
+    // If the socket is closed, and it isn't a normal close
     // then we need to run reopen the connection
     this._websocket.on('close', function(socket, code) {
         if (self._websocket === socket && code !== 1000) {

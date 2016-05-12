@@ -1,11 +1,10 @@
 {
   "nativescript": {
-    "id": "com.mastertechapps.crossCommunicator",
+    "id": "com.mastertechapps.crossCommunicator"
   },
   "dependencies": {
-    "nativescript-telerik-ui": "^0.1.0",
+    "nativescript-telerik-ui": "^1.1.1",
     "nativescript-vibrate": "^1.1.0",
-    "nativescript-websockets": "^1.0.0",
-    "tns-core-modules": "1.5.1"
+    "nativescript-websockets": "^1.0.0"
   }
 }

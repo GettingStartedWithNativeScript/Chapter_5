@@ -5,6 +5,7 @@
   "dependencies": {
     "nativescript-telerik-ui": "^1.1.1",
     "nativescript-vibrate": "^1.1.0",
-    "nativescript-websockets": "^1.0.0"
+    "nativescript-websockets": "^1.0.0",
+	"tns-core-modules": "latest"
   }
 }
